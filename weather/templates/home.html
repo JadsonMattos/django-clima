@@ -1,0 +1,15 @@
+{% extends 'base.html'}
+
+{% block title %}
+
+{% endblock %}
+
+{% block content %}
+
+{% for city in cities %}
+
+<a href="{% url 'city_weather' city.slugify %}"><p>{{city}}</p></a>
+
+{% endfor %}
+
+{% endblock %}

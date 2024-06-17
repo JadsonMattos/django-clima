@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: django_clima
+Version: 0.1.0
+Summary: Django Clima is a Django app to get weather information from a city.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Django==4.2.3
+Requires-Dist: django-extensions==3.2.3
+Requires-Dist: django-filter==23.2
+Requires-Dist: djangorestframework==3.14.0
+Requires-Dist: Markdown==3.4.4
+Requires-Dist: markdown-it-py==2.2.0
+Requires-Dist: mysqlclient==2.2.0
+Requires-Dist: Pillow==10.0.0
+Requires-Dist: whitenoise==6.5.0
+Provides-Extra: test
+Requires-Dist: pytest-dependency@ git+https://github.com/betrybe/pytest-dependency@984f9d7d083870d091e8862a9b9c33fdf815b8d9 ; extra == "test"
+Requires-Dist: pytest==7.3.1; extra == "test"
+Requires-Dist: pytest-cov==4.1.0; extra == "test"
+Requires-Dist: pytest-json==0.4.0; extra == "test"
+Requires-Dist: pytest-django==4.5.2; extra == "test"
+Requires-Dist: beautifulsoup4==4.12.2; extra == "test"
+Provides-Extra: alltest
+Requires-Dist: django_clima[test]; extra == "alltest"
+Requires-Dist: coverage==7.2.6; extra == "alltest"
+Requires-Dist: iniconfig==2.0.0; extra == "alltest"
+Requires-Dist: packaging==23.1; extra == "alltest"
+Requires-Dist: pluggy==1.0.0; extra == "alltest"
+Provides-Extra: dev
+Requires-Dist: django_clima[test]; extra == "dev"
+Requires-Dist: black==23.3.0; extra == "dev"
+Requires-Dist: flake8==6.0.0; extra == "dev"
+Requires-Dist: isort==5.12.0; extra == "dev"
+Provides-Extra: alldev
+Requires-Dist: django_clima[dev]; extra == "alldev"
+Requires-Dist: django_clima[alltest]; extra == "alldev"
+Requires-Dist: click==8.1.3; extra == "alldev"
+Requires-Dist: mccabe==0.7.0; extra == "alldev"
+Requires-Dist: pathspec==0.11.1; extra == "alldev"
+Requires-Dist: platformdirs==3.5.1; extra == "alldev"
+Requires-Dist: pycodestyle==2.10.0; extra == "alldev"
+Requires-Dist: pyflakes==3.0.1; extra == "alldev"

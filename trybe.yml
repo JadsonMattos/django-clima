@@ -1,0 +1,9 @@
+ignore_files:
+  - tests
+  - django_clima/settings.py
+  - django_clima/settings_test.py
+  - manage.py
+  - requirements.txt
+  - setup.cfg
+  - pyproject.toml
+  - trybe.yml

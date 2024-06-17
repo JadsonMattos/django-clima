@@ -1,0 +1,15 @@
+{% extends 'base.html'}
+
+{% block title %}
+{{weather.city}} - {{weather.date|date:"d/m/Y"}}
+{% endblock %}
+
+{% block content %}
+<h2>{{weather.brief_description}}</h2>
+<h2>{{weather.city}}</h2>
+<h2>{{weather.min_temp}}</h2>
+<h2>{{weather.max_temp}}</h2>
+
+<a href="{% url 'city_weather' weather.city.slugify %}"><p>Voltar</p></a>
+
+{% endblock %}
